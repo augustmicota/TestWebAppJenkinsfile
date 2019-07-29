@@ -1,6 +1,6 @@
+#!/usr/bin/env groovy
 
-
-String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
+//String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
 
 node {
     stage("Clone repository from git")
@@ -8,5 +8,5 @@ node {
         echo("Stage 1 completed")
     stage('Restore NuGet Packages')
         //            bat "nuget restore"
-        echo(Stage 2 completed)
+        echo("Stage 2 completed")
 }
