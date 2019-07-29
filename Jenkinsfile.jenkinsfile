@@ -1,9 +1,15 @@
+
+
+String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
+
 node(){
     pipeline{
         agent any
         stages{
-            stage(){
-
+            stage('Restore NuGet Packages'){
+                steps{
+        //            bat "nuget restore"
+                }
             }
             stage(){
 
