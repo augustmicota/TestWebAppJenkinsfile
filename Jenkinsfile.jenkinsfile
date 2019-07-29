@@ -3,6 +3,7 @@
 //String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
 
 node {
+    sleep (10000)
     stage("Clone repository from git")
   //      git('https://github.com/augustmicota/TestWebApp.git')
         echo("Stage 1 completed")
