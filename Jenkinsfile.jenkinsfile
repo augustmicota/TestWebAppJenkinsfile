@@ -3,20 +3,11 @@
 String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
 
 node(){
-    pipeline{
-        agent any
-        stages{
-            stage("Clone repository from git"){
+            stage("Clone repository from git")
                 git( 'https://github.com/augustmicota/TestWebApp.git')
-            }
-            stage('Restore NuGet Packages'){
-                steps{
-        //            bat "nuget restore"
-                }
-            }
-            stage(){
 
-            }
+            stage('Restore NuGet Packages'){
+        //            bat "nuget restore"
         }
-    }
+
 }
