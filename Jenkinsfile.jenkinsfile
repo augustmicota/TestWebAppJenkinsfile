@@ -6,6 +6,9 @@ node(){
     pipeline{
         agent any
         stages{
+            stage("Clone repository from git"){
+                git( 'https://github.com/augustmicota/TestWebApp.git')
+            }
             stage('Restore NuGet Packages'){
                 steps{
         //            bat "nuget restore"
