@@ -6,8 +6,8 @@ node {
     sleep (2)
     stage("Clone repository from git")
         git('https://github.com/augustmicota/TestWebApp.git')
-        echo("Stage 1 completed")
+        echo("Repo succesfully cloned......................................")
     stage('Restore NuGet Packages')
         //            bat "nuget restore"
-        echo("Stage 2 completed")
+        echo("NuGet packages restored......................................")
 }
