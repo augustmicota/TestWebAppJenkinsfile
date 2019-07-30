@@ -3,11 +3,13 @@
 //String destinationPath = "C:\\Users\\DefaultAppPool\\IIS\\Sites\\TestWebSite";
 
 node {
-    sleep (2)
-    stage("Clone repository from git")
+    sleep(2)
+    stage("Clone repository from git") {
         git 'https://github.com/augustmicota/TestWebApp.git'
         echo("Repo succesfully cloned......................................")
-    stage('Restore NuGet Packages')
+    }
+    stage('Restore NuGet Packages') {
         //            bat "nuget restore"
         echo("NuGet packages restored......................................")
+    }
 }
