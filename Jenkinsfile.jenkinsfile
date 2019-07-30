@@ -5,8 +5,7 @@
 node {
     sleep (2)
     stage("Clone repository from git")
- //       git('https://github.com/augustmicota/TestWebApp.git')
-    git credentialsId: 'august', url: 'git@github.com:augustmicota/TestWebApp.git'
+        git 'https://github.com/augustmicota/TestWebApp.git'
         echo("Repo succesfully cloned......................................")
     stage('Restore NuGet Packages')
         //            bat "nuget restore"
