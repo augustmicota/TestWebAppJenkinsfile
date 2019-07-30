@@ -1,0 +1,15 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 9088-1EEF
+
+ Directory of C:\Users\august.micota\Desktop\tools\Maven\TestMavenProject\TestJenkinsfile
+
+30.07.2019  08:31    <DIR>          .
+30.07.2019  08:31    <DIR>          ..
+30.07.2019  08:31                 0 .gitignore
+29.07.2019  17:05    <DIR>          .idea
+29.07.2019  17:02               388 Jenkinsfile.jenkinsfile
+29.07.2019  12:31    <DIR>          out
+29.07.2019  12:33    <DIR>          src
+29.07.2019  12:54               508 TestJenkinsfile.iml
+               3 File(s)            896 bytes
+               5 Dir(s)  110ÿ525ÿ095ÿ936 bytes free
